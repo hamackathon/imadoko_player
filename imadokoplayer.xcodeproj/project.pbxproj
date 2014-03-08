@@ -21,6 +21,9 @@
 		00B0522518CAAB6A00FABCF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B0520718CAAB6A00FABCF8 /* UIKit.framework */; };
 		00B0522D18CAAB6A00FABCF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B0522B18CAAB6A00FABCF8 /* InfoPlist.strings */; };
 		00B0522F18CAAB6A00FABCF8 /* imadokoplayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B0522E18CAAB6A00FABCF8 /* imadokoplayerTests.m */; };
+		4163F1E318CAE02D001BBBC8 /* momokuro-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4163F1E218CAE02D001BBBC8 /* momokuro-bg@2x.png */; };
+		4163F1E518CAE2EC001BBBC8 /* 5th_dimention@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4163F1E418CAE2EC001BBBC8 /* 5th_dimention@2x.png */; };
+		4163F1E718CAE4A6001BBBC8 /* momokuro-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4163F1E618CAE4A6001BBBC8 /* momokuro-logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		00B0522A18CAAB6A00FABCF8 /* imadokoplayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "imadokoplayerTests-Info.plist"; sourceTree = "<group>"; };
 		00B0522C18CAAB6A00FABCF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00B0522E18CAAB6A00FABCF8 /* imadokoplayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imadokoplayerTests.m; sourceTree = "<group>"; };
+		4163F1E218CAE02D001BBBC8 /* momokuro-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "momokuro-bg@2x.png"; sourceTree = "<group>"; };
+		4163F1E418CAE2EC001BBBC8 /* 5th_dimention@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5th_dimention@2x.png"; sourceTree = "<group>"; };
+		4163F1E618CAE4A6001BBBC8 /* momokuro-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "momokuro-logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		00B0520918CAAB6A00FABCF8 /* imadokoplayer */ = {
 			isa = PBXGroup;
 			children = (
+				4163F1E618CAE4A6001BBBC8 /* momokuro-logo@2x.png */,
+				4163F1E418CAE2EC001BBBC8 /* 5th_dimention@2x.png */,
+				4163F1E218CAE02D001BBBC8 /* momokuro-bg@2x.png */,
 				00B0521218CAAB6A00FABCF8 /* AppDelegate.h */,
 				00B0521318CAAB6A00FABCF8 /* AppDelegate.m */,
 				00B0521518CAAB6A00FABCF8 /* Main.storyboard */,
@@ -230,6 +239,9 @@
 			files = (
 				00B0521C18CAAB6A00FABCF8 /* Images.xcassets in Resources */,
 				00B0520E18CAAB6A00FABCF8 /* InfoPlist.strings in Resources */,
+				4163F1E718CAE4A6001BBBC8 /* momokuro-logo@2x.png in Resources */,
+				4163F1E518CAE2EC001BBBC8 /* 5th_dimention@2x.png in Resources */,
+				4163F1E318CAE02D001BBBC8 /* momokuro-bg@2x.png in Resources */,
 				00B0521718CAAB6A00FABCF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +472,7 @@
 				00B0523418CAAB6A00FABCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00B0523518CAAB6A00FABCF8 /* Build configuration list for PBXNativeTarget "imadokoplayerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				00B0523718CAAB6A00FABCF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
