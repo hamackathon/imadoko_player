@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00878ED418CAF8AD005875A4 /* 01 Z伝説 〜終わりなき革命〜.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00878ECE18CAF8AD005875A4 /* 01 Z伝説 〜終わりなき革命〜.mp3 */; };
+		00878ED518CAF8AD005875A4 /* 04 ワニとシャンプー.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00878ECF18CAF8AD005875A4 /* 04 ワニとシャンプー.mp3 */; };
+		00878ED618CAF8AD005875A4 /* 13 ももクロのニッポン万歳!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00878ED018CAF8AD005875A4 /* 13 ももクロのニッポン万歳!.mp3 */; };
+		00878ED718CAF8AD005875A4 /* 14 ココ☆ナツ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00878ED118CAF8AD005875A4 /* 14 ココ☆ナツ.mp3 */; };
+		00878ED818CAF8AD005875A4 /* bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00878ED218CAF8AD005875A4 /* bar.jpg */; };
+		00878ED918CAF8AD005875A4 /* bar120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00878ED318CAF8AD005875A4 /* bar120.jpg */; };
 		00B0520418CAAB6A00FABCF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B0520318CAAB6A00FABCF8 /* Foundation.framework */; };
 		00B0520618CAAB6A00FABCF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B0520518CAAB6A00FABCF8 /* CoreGraphics.framework */; };
 		00B0520818CAAB6A00FABCF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B0520718CAAB6A00FABCF8 /* UIKit.framework */; };
@@ -107,6 +113,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00878ECE18CAF8AD005875A4 /* 01 Z伝説 〜終わりなき革命〜.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Z伝説 〜終わりなき革命〜.mp3"; sourceTree = "<group>"; };
+		00878ECF18CAF8AD005875A4 /* 04 ワニとシャンプー.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 ワニとシャンプー.mp3"; sourceTree = "<group>"; };
+		00878ED018CAF8AD005875A4 /* 13 ももクロのニッポン万歳!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13 ももクロのニッポン万歳!.mp3"; sourceTree = "<group>"; };
+		00878ED118CAF8AD005875A4 /* 14 ココ☆ナツ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 ココ☆ナツ.mp3"; sourceTree = "<group>"; };
+		00878ED218CAF8AD005875A4 /* bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar.jpg; sourceTree = "<group>"; };
+		00878ED318CAF8AD005875A4 /* bar120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar120.jpg; sourceTree = "<group>"; };
 		00B0520018CAAB6A00FABCF8 /* imadokoplayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imadokoplayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00B0520318CAAB6A00FABCF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		00B0520518CAAB6A00FABCF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -174,6 +186,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00878EBC18CAF5E4005875A4 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				00878ECE18CAF8AD005875A4 /* 01 Z伝説 〜終わりなき革命〜.mp3 */,
+				00878ECF18CAF8AD005875A4 /* 04 ワニとシャンプー.mp3 */,
+				00878ED018CAF8AD005875A4 /* 13 ももクロのニッポン万歳!.mp3 */,
+				00878ED118CAF8AD005875A4 /* 14 ココ☆ナツ.mp3 */,
+				00878ED218CAF8AD005875A4 /* bar.jpg */,
+				00878ED318CAF8AD005875A4 /* bar120.jpg */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		00B051F718CAAB6A00FABCF8 = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +244,7 @@
 		00B0520918CAAB6A00FABCF8 /* imadokoplayer */ = {
 			isa = PBXGroup;
 			children = (
+				00878EBC18CAF5E4005875A4 /* resources */,
 				4163F1E618CAE4A6001BBBC8 /* momokuro-logo@2x.png */,
 				4163F1E418CAE2EC001BBBC8 /* 5th_dimention@2x.png */,
 				4163F1E218CAE02D001BBBC8 /* momokuro-bg@2x.png */,
@@ -470,11 +496,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00878ED918CAF8AD005875A4 /* bar120.jpg in Resources */,
 				00B0521C18CAAB6A00FABCF8 /* Images.xcassets in Resources */,
 				00B0520E18CAAB6A00FABCF8 /* InfoPlist.strings in Resources */,
+				00878ED718CAF8AD005875A4 /* 14 ココ☆ナツ.mp3 in Resources */,
 				4163F1E718CAE4A6001BBBC8 /* momokuro-logo@2x.png in Resources */,
+				00878ED518CAF8AD005875A4 /* 04 ワニとシャンプー.mp3 in Resources */,
+				00878ED818CAF8AD005875A4 /* bar.jpg in Resources */,
 				4163F1E518CAE2EC001BBBC8 /* 5th_dimention@2x.png in Resources */,
+				00878ED418CAF8AD005875A4 /* 01 Z伝説 〜終わりなき革命〜.mp3 in Resources */,
 				4163F1E318CAE02D001BBBC8 /* momokuro-bg@2x.png in Resources */,
+				00878ED618CAF8AD005875A4 /* 13 ももクロのニッポン万歳!.mp3 in Resources */,
 				00B0521718CAAB6A00FABCF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

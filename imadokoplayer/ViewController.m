@@ -7,11 +7,14 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *hourLabel;
 @property (weak, nonatomic) IBOutlet UILabel *minuteLabel;
+@property (strong, nonatomic) AVAudioPlayer *player;
+- (void)play:(int)index;
 
 @end
 
@@ -29,9 +32,6 @@
     [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(didSecondUpdate:) userInfo:nil repeats:YES];
     
     // 位置
-    
-    // プレイヤー
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -59,6 +59,24 @@
     
     self.hourLabel.text = [NSString stringWithFormat:@"%02d", hh];
     self.minuteLabel.text = [NSString stringWithFormat:@"%02d", mm];
+}
+
+- (void)play:(int)index
+{
+    if ((index < 0) || (index >=4)) {
+        NSLog(@"nosong");
+        return;
+    }
+    // プレイヤー
+    NSString *strs[] = {@"01 Z伝説 〜終わりなき革命〜",
+        @"04 ワニとシャンプー",
+        @"13 ももクロのニッポン万歳!",
+        @"14 ココ☆ナツ"};
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:strs[index] ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+   _player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    [_player play];
 }
 
 @end
