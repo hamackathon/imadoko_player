@@ -7,8 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "SCUI.h"
 
 @implementation AppDelegate
+
++ (void) initialize
+{
+    [SCSoundCloud setClientID:@"5ca224e2695897983af165127d5cdca0"
+                       secret:@"769a95c26642a9d3ac98bd61a144c31b"
+                  redirectURL:[NSURL URLWithString:@"sampleproject://oauth"]];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

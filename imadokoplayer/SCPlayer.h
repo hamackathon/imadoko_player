@@ -10,4 +10,8 @@
 
 @interface SCPlayer : NSObject
 
+- (NSInteger)GetNumOfList;
+- (BOOL)Play:(NSInteger)playlistNum;
+- (void)Stop;
+
 @end
