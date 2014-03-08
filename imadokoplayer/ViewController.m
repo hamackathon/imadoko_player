@@ -77,7 +77,8 @@
     NSString *path = [[NSBundle mainBundle] pathForResource:strs[index] ofType:@"mp3"];
     NSURL *url = [NSURL fileURLWithPath:path];
    _player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
-    [_player play];
+   [_player setNumberOfLoops:-1];
+   [_player play];
 }
 
 @end
