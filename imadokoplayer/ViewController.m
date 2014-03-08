@@ -32,6 +32,7 @@
     [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(didSecondUpdate:) userInfo:nil repeats:YES];
     
     // 位置
+    [self play:3];
 }
 
 - (void)didReceiveMemoryWarning
